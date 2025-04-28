@@ -1,0 +1,52 @@
+# Version control
+.git/
+.gitignore
+
+# Build outputs
+build/
+out/
+bin/
+target/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Local development
+uploads/
+.env
+*.env
+docker-compose*.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+LICENSE
+*.md
+!swagger.md
+
+# Test files
+**/test/
+**/tests/
+**/testdata/
+**/*Test.kt
+**/*Tests.kt 

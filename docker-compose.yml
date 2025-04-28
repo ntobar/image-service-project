@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./image-service
+      dockerfile: Dockerfile
+    container_name: image-service-backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./image-service/uploads:/app/uploads
+    restart: always
+
+  frontend:
+    build:
+      context: ./image-platform
+      dockerfile: Dockerfile
+    container_name: image-service-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
