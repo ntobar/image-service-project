@@ -31,7 +31,7 @@ A modern image viewing service with real-time updates and multi-frame viewing ca
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ntobar/image-service-project.git
    cd image-service-project
    ```
 
