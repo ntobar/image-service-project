@@ -12,6 +12,7 @@ A modern image viewing service with real-time updates and multi-frame viewing ca
   - Automatic image ordering by upload time
   - Multi-user support
   - Comprehensive unit and integration tests
+  - Swagger UI for API documentation
 
 - **Frontend (React + TypeScript + Vite + Tailwind CSS)**
   - Real-time image cycling with SSE
