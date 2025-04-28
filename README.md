@@ -4,7 +4,7 @@ A modern image viewing service with real-time updates and multi-frame viewing ca
 
 ## Features
 
-- **Backend (Kotlin + Spring Boot)**
+- **Backend - Image Service (Kotlin + Spring Boot)**
   - RESTful API for image CRUD operations
   - Server-Sent Events (SSE) for real-time updates
   - Local disk storage for images
@@ -14,7 +14,7 @@ A modern image viewing service with real-time updates and multi-frame viewing ca
   - Comprehensive unit and integration tests
   - Swagger UI for API documentation
 
-- **Frontend (React + TypeScript + Vite + Tailwind CSS)**
+- **Frontend - Image Platform (React + TypeScript + Vite + Tailwind CSS)**
   - Real-time image cycling with SSE
   - Single and multi-frame viewing modes
   - Adjustable cycle speeds (slow/normal/fast)
@@ -94,7 +94,7 @@ Supported image formats:
 1. Open http://localhost in your browser
 2. Choose between:
    - Single Frame: Shows one frame at a time, cycling through all images
-   - Multi-Frame: Shows multiple images cycling independently through all images
+   - Multi-Frame: Shows multiple frames cycling independently through all images
 
 ### Multi-Frame Features
 
@@ -292,8 +292,6 @@ The service is designed to handle multiple concurrent users efficiently:
   - Error state handling
   - Basic event handling with heartbeats
 
-### Test Automation
-
 ## Development
 
 ### Local Development
@@ -341,4 +339,6 @@ VITE_API_BASE_URL=http://localhost:8080
 
 ## License
 
-[License Type] - See LICENSE file for details 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2024 Nicolas Tobar 
